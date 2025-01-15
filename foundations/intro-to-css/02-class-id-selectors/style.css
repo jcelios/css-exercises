@@ -1,0 +1,15 @@
+.odd {
+    background-color:pink;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+#second {
+    color:blue;
+    font-size:36px;
+}
+.mediumText {
+    font-size:24px;
+}
+#forth {
+    background-color: #90ee90;
+    font-weight: bold;
+}
