@@ -1,14 +1,32 @@
 .header  {
-  font-family: monospace;
+  display: flex;
+  font-family: 'Courier New', Courier, monospace,monospace;
+  font-weight: bolder;
   background: papayawhip;
+  justify-content: space-between;
+  align-items: center;
 }
 
+ul { padding: 0 10px; }
+li { margin: 10px; flex: 0 1 0;}
+
 .logo {
+  display: flex;
   font-size: 48px;
-  font-weight: 900;
+  font-weight: bolder;
   color: tomato;
   background: white;
   padding: 4px 32px;
+  margin: 10px;
+  flex: 0 1 0;
+}
+
+.left-links ul {
+  display: flex;
+}
+
+.right-links ul {
+  display: flex;
 }
 
 ul {
